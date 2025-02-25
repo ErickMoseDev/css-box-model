@@ -1,0 +1,81 @@
+h1 {
+	background-color: bisque;
+	border: 2px solid red;
+	padding: 50px;
+}
+
+.container {
+	width: 100px;
+	height: 100px;
+	background-color: cadetblue;
+}
+
+/* p {
+	background-color: aquamarine;
+} */
+
+ul {
+	background-color: chocolate;
+}
+
+li {
+	background-color: blue;
+	margin-bottom: 5px;
+}
+
+button {
+	background-color: green;
+}
+
+img {
+	background-color: red;
+}
+
+.card {
+	border: 10px solid black;
+	margin: 10px;
+	padding: 10px;
+}
+
+.box {
+	border: 10px dashed red;
+}
+
+/* google meet box */
+
+.gm-box {
+	position: relative;
+	margin-top: 20px;
+	background-color: #3c4043;
+	width: 250px;
+	height: 150px;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.avatar {
+	position: absolute;
+	border-radius: 50%;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
+}
+.name {
+	position: absolute;
+	color: white;
+	font-weight: bold;
+	bottom: 0px;
+	left: 20px;
+}
+.mic-circle {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	width: fit-content;
+	padding: 2px;
+	border-radius: 50%;
+	background-color: rgb(0, 0, 0, 0.5);
+	right: 10px;
+}
